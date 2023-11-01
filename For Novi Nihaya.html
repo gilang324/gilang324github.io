@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy birthday</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: blue;
+            text-align: center;
+            background-image: url(imagee.jpg);
+            background-size: cover;
+            background-position: center;
+            color: black;
+            text-align: center;
+            font-size: 24px;
+            padding: 100px;
+
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: skyblue;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+        .image-container {
+            position: relative;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+
+        h1 {
+            color: darkblue;
+
+        }
+
+        p {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        .animated-text {
+            opacity: 0; /* Mulai dengan keadaan tidak terlihat */
+            animation: slide-in 1s ease forwards; /* Nama animasi, durasi, jenis animasi, dan efek terakhir */
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: skyblue;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+        @keyframes slide-in {
+            0% {
+             transform: translateX(-100%); /* Teks dimulai dari luar layar kiri */
+  }
+            100% {
+            transform: translateX(0); /* Teks akhirnya muncul di posisi normal */
+            opacity: 1; /* Teks terlihat sepenuhnya */
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="animated-text">
+         <h1>HAPPY BIRTHDAY &#127874;</h1>
+        <p>Selamat ulang tahun Novi Nihaya &#127802;, Semoga panjang umur sehat selalu, dimudahkan segala urusannya dan selalu bahagia &#128516; </p>
+        <p>semangat terus kuliahnya yaa, jaga kesehatan karena jauh dari orangtua kan?</p>
+        <p>Dan jangan lupa pulang ke cirebon, apa ga kangen main wkwk </p>
+        <p>pokonya wish you all the best for you &#127802;</p>
+        <p>your friend<br> [gausah kepo]</p>
+        <p>Sambil di puter dong lagunya biar seruuu</p>
+    <audio controls autoplay>
+        <source src="bersamamu-official-lyric-video.mp3" type="audio/mpeg">
+    </audio>
+    </div>
+</body>
+</html>
